@@ -14,9 +14,9 @@ if [ -z "$1" ]; then
     esac
   done
 fi
-if git describe --tags --abbrev=0 >/dev/null 2>&1; then
-  latest_tag=$(git describe --tags --abbrev=0)
-else
+# Get the latest tag in v#.#.# format
+latest_tag=$(git tag --list 'v*.*.*' --sort=-v:refname | head -n1)
+if [ -z "$latest_tag" ]; then
   latest_tag="v0.0.0"
 fi
 # Extract version numbers

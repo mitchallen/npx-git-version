@@ -1,6 +1,28 @@
 npx-git-version
 ==
 
+## Bumping Git Tags Using npx
+
+You can bump the git version tag directly from any git repo using this tool with npx. Use the `--yes` flag to skip the install prompt.
+
+### Patch Version
+
+```sh
+npx --yes github:mitchallen/npx-git-version patch
+```
+
+### Minor Version
+
+```sh
+npx --yes github:mitchallen/npx-git-version minor
+```
+
+### Major Version
+
+```sh
+npx --yes github:mitchallen/npx-git-version major
+```
+
 ## Usage
 
 ### To run from the repo using npx
