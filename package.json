@@ -1,0 +1,10 @@
+{
+  "name": "npx-git-version",
+  "version": "1.0.0",
+  "bin": {
+    "git-version-bump": "./bin/run.sh"
+  },
+  "scripts": {
+    "start": "sh ./bin/run.sh"
+  }
+}
