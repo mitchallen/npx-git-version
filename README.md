@@ -1,6 +1,9 @@
 npx-git-version
 ==
 
+[![ko-fi](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee&logoColor=white&style=flat-square)](https://www.buymeacoffee.com/mitchallen)
+[![ko-fi](https://img.shields.io/badge/Support%20me%20on%20Ko--fi-29abe0?logo=ko-fi&logoColor=white&style=flat-square)](https://ko-fi.com/mitchallen)
+
 ## Bumping Git Tags Using npx
 
 You can bump the git version tag directly from any git repo using this tool with npx. Use the `--yes` flag to skip the install prompt.
