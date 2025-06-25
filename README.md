@@ -46,5 +46,10 @@ After that it will just run, unless there was an update:
 * The script was made executable via `chmod +x bin/run.sh`
 * Because the package is ***not*** published, it needs to be run using the format: `npx github:username/repo`
 
+* * *
+
+## References
+
+* [mitchallen/npx-shell-101](https://github.com/mitchallen/npx-shell-101)
 
 
