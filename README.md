@@ -29,7 +29,7 @@ npx --yes github:mitchallen/npx-git-version major
 When you run this for the first time on a machine without the flag, it will ask for permission to install:
 
 ```sh
-npx github:mitchallen/npx-git-version
+npx github:mitchallen/npx-git-version patch
 Need to install the following packages:
 github:mitchallen/npx-git-version
 Ok to proceed? (y) y
